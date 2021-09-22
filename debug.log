@@ -1,0 +1,8 @@
+[1116/183207.630:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1117/092301.638:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1117/153415.126:ERROR:process_info.cc(98)] ReadProcessMemory UNICODE_STRING: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1117/153415.830:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::LDR_DATA_TABLE_ENTRY<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1117/153415.830:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1117/153415.830:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1117/153415.830:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1118/141410.856:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
